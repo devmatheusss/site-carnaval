@@ -1,0 +1,35 @@
+.header {
+  @apply h-screen self-stretch bg-[#F8F8FF] flex items-center justify-center relative;
+}
+
+.img-top {
+  @apply absolute top-0 left-0;
+}
+
+.img-bottom {
+  @apply absolute bottom-0 right-0;
+}
+
+.header-content {
+  @apply flex flex-col items-center gap-8 w-3/4 z-10;
+}
+
+.header-text {
+  @apply flex flex-col items-center gap-4 max-w-2xl;
+}
+
+.header-text span {
+  @apply text-red-500 font-medium;
+}
+
+.header-text h1 {
+  @apply font-bold text-5xl text-center;
+}
+
+.header-text h1 span {
+  @apply text-roxo;
+}
+
+.form-container {
+  @apply flex flex-wrap gap-6 justify-around w-full bg-white rounded-lg p-10 shadow-md;
+}

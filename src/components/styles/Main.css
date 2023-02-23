@@ -1,0 +1,57 @@
+main {
+  @apply flex flex-col gap-8 px-20 py-20;
+}
+
+.section-top {
+  @apply flex justify-between items-center;
+}
+
+.section-top h2 {
+  @apply font-bold text-xl;
+}
+
+.st-ul {
+  @apply flex gap-2 bg-gray-100 rounded-md p-2;
+}
+
+.st-ul li {
+  @apply flex gap-2;
+}
+
+.checkbox {
+  @apply hidden;
+}
+
+.label {
+  @apply py-1 px-2 rounded-md text-sm cursor-pointer transition duration-200 hover:bg-roxo/20;
+}
+
+.label.selected {
+  @apply bg-roxo text-white transition duration-200 hover:bg-roxo/80;
+}
+
+/* SECTION CARDS */
+
+.section-cards {
+  @apply grid gap-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1;
+}
+
+.main-card {
+  @apply rounded-lg overflow-hidden shadow-lg shadow-gray-400;
+}
+
+.main-card img {
+  @apply w-full;
+}
+
+.main-card-text {
+  @apply p-4 flex flex-col gap-2;
+}
+
+.main-card-text h3 {
+  @apply text-lg font-bold;
+}
+
+.main-card-text span {
+  @apply flex gap-1 items-center text-sm;
+}
