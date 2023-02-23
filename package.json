@@ -17,9 +17,9 @@
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
+    "react-confetti-explosion": "^2.0.2",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.7.1",
-    "react-tailwindcss-select": "^1.6.0"
+    "react-icons": "^4.7.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",

@@ -1,4 +1,5 @@
 import React, { useState, useRef } from "react";
+import ConfettiExplosion from "react-confetti-explosion";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
@@ -7,6 +8,7 @@ import { cards } from "./data/data";
 export default function App() {
   const [inputValue, setInputValue] = useState("");
   const [selectValue, setSelectValue] = useState("");
+  const [showConfetti, setShowConfetti] = useState(false);
   const [filteredCards, setFilteredCards] = useState(cards);
   const myRef = useRef(null);
 
@@ -37,6 +39,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center">
+      {showConfetti && (
+        <ConfettiExplosion
+          force={0.8}
+          duration={3000}
+          particleCount={250}
+          width={1600}
+        />
+      )}
       <Header
         inputValue={inputValue}
         setInputValue={handleChange}
@@ -45,6 +55,7 @@ export default function App() {
         onClick={() => {
           handleScroll(myRef.current);
           handleSearch();
+          setShowConfetti(true);
         }}
       />
       <Main ref={myRef} cards={filteredCards} />
