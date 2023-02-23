@@ -1,7 +1,7 @@
 import React from "react";
 
-import ImgTop from "../../public/assets/images/ilustra-01.svg";
-import ImgBottom from "../../public/assets/images/ilustra-02.svg";
+import ImgTop from "../assets/images/ilustra-01.svg";
+import ImgBottom from "../assets/images/ilustra-02.svg";
 import Form from "./HeaderComponents/Form";
 
 import "./styles/Header.css";

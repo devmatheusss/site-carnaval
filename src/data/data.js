@@ -1,12 +1,12 @@
-import Image1 from "../../public/assets/images/imagem-1.png";
-import Image2 from "../../public/assets/images/imagem-2.png";
-import Image3 from "../../public/assets/images/imagem-3.png";
-import Image4 from "../../public/assets/images/imagem-4.png";
-import Image5 from "../../public/assets/images/imagem-5.png";
-import Image6 from "../../public/assets/images/imagem-6.png";
-import Image7 from "../../public/assets/images/imagem-7.png";
-import Image8 from "../../public/assets/images/imagem-8.png";
-import Image9 from "../../public/assets/images/imagem-9.png";
+import Image1 from "../assets/images/imagem-1.png";
+import Image2 from "../assets/images/imagem-2.png";
+import Image3 from "../assets/images/imagem-3.png";
+import Image4 from "../assets/images/imagem-4.png";
+import Image5 from "../assets/images/imagem-5.png";
+import Image6 from "../assets/images/imagem-6.png";
+import Image7 from "../assets/images/imagem-7.png";
+import Image8 from "../assets/images/imagem-8.png";
+import Image9 from "../assets/images/imagem-9.png";
 
 export const cards = [
   {
