@@ -37,7 +37,11 @@ main {
 }
 
 .main-card {
-  @apply rounded-lg overflow-hidden shadow-lg shadow-gray-400;
+  @apply rounded-lg overflow-hidden shadow-lg shadow-gray-400 transition duration-200 cursor-pointer hover:scale-105 hover:shadow-xl hover:border-2 hover:border-roxo;
+}
+
+.section-cards:has(.main-card:hover) .main-card:not(.main-card:hover) {
+  @apply opacity-80;
 }
 
 .main-card img {

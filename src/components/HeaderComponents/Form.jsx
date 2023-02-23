@@ -35,7 +35,7 @@ export default function Form({
 
       <button
         onClick={onClick}
-        className="bg-roxo rounded-lg flex-1 text-white shadow-md shadow-roxo hover:shadow-lg hover:shadow-roxo"
+        className="bg-roxo rounded-lg w-full h-10 md:w-full lg:w-52 text-white text-sm font-bold shadow-md shadow-roxo transition duration-200"
       >
         BUSCAR AGORA
       </button>

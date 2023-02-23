@@ -1,5 +1,5 @@
 .header {
-  @apply h-screen self-stretch bg-[#F8F8FF] flex items-center justify-center relative;
+  @apply h-screen overflow-hidden self-stretch bg-[#F8F8FF] flex items-center justify-center relative;
 }
 
 .img-top {
