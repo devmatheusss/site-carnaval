@@ -25,8 +25,8 @@ export default function Header({
           </h1>
         </div>
         <Form
-          value={inputValue}
-          setValue={setInputValue}
+          inputValue={inputValue}
+          setInputValue={setInputValue}
           selectValue={selectValue}
           setSelectValue={setSelectValue}
           onClick={onClick}
