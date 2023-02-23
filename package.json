@@ -2,7 +2,7 @@
   "name": "site-carnaval",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://gitname.github.io/react-gh-pages",
+  "homepage": "https://matheusma678.github.io/site-carnaval",
   "type": "module",
   "scripts": {
     "dev": "vite",
